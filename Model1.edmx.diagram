@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9c51b1869f434f53b991a1619dea3914" Name="Diagram1" ZoomLevel="98">
+        <EntityTypeShape EntityType="PenjualanBukuModel.Buku" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PenjualanBukuModel.DetailTransaksi" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PenjualanBukuModel.Pelanggan" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PenjualanBukuModel.sysdiagram" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PenjualanBukuModel.Transaksi" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="PenjualanBukuModel.FK__DetailTra__IdBuk__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="PenjualanBukuModel.FK__DetailTra__IdTra__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="PenjualanBukuModel.FK__Transaksi__IdPel__3B75D760" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

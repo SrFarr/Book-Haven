@@ -1,0 +1,33 @@
+D:\KhususDesktop\Penjualan Buku\bin\Debug\Penjualan Buku.exe.config
+D:\KhususDesktop\Penjualan Buku\bin\Debug\Penjualan Buku.exe
+D:\KhususDesktop\Penjualan Buku\bin\Debug\Penjualan Buku.pdb
+D:\KhususDesktop\Penjualan Buku\bin\Debug\EntityFramework.dll
+D:\KhususDesktop\Penjualan Buku\bin\Debug\EntityFramework.SqlServer.dll
+D:\KhususDesktop\Penjualan Buku\bin\Debug\EntityFramework.xml
+D:\KhususDesktop\Penjualan Buku\bin\Debug\EntityFramework.SqlServer.xml
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan Buku.csproj.AssemblyReference.cache
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.FormLogin.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Properties.Resources.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan Buku.csproj.GenerateResource.cache
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan Buku.csproj.CoreCompileInputs.cache
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjuala.FA0C1414.Up2Date
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan Buku.exe
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan Buku.pdb
+D:\KhususDesktop\Penjualan Buku\bin\Debug\ReaLTaiizor.dll
+D:\KhususDesktop\Penjualan Buku\bin\Debug\ReaLTaiizor.xml
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.FormRegister.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Adm_MainForm.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Adm_KelolaBuku.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Adm_KelolaPengguna.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Usr_MainForm.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Adm_Dashboard.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Admin.Adm_Transaction.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Customer.Cs_Cart.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Customer.Cs_DaftarBuku.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Customer.Cs_Dashboard.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Customer.Cs_Transaksi.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan Buku.exe.config
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Customer.BookCard.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Customer.CartCard.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Customer.FrmCheckout.resources
+D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Customer.TransaksiCard.resources

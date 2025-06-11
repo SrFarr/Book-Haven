@@ -1,0 +1,451 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KhususDesktop\\Penjualan Buku\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|d:\\khususdesktop\\penjualan buku\\admin\\adm_kelolabuku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:admin\\adm_kelolabuku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\admin\\adm_kelolabuku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:admin\\adm_kelolabuku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\cs_transaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\cs_transaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\transaksicard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\transaksicard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\transaksicard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\transaksicard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\cs_transaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\cs_transaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\cs_daftarbuku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\cs_daftarbuku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\bookcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\bookcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\admin\\adm_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:admin\\adm_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\cs_daftarbuku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\cs_daftarbuku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\usr_mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:usr_mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\usr_mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:usr_mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\admin\\adm_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:admin\\adm_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\bookcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\bookcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\cartcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\cartcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\cs_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\cs_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\cs_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\cs_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\cartcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\cartcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\frmcheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\frmcheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\customer\\frmcheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:customer\\frmcheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\adm_mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:adm_mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|D:\\KhususDesktop\\Penjualan Buku\\adm_mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1193E3A3-564D-4EF5-AB04-ACE5CECF755D}|Penjualan Buku.csproj|solutionrelative:adm_mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FrmCheckout.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\FrmCheckout.cs",
+              "RelativeDocumentMoniker": "Customer\\FrmCheckout.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\FrmCheckout.cs [Design]",
+              "RelativeToolTip": "Customer\\FrmCheckout.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:53:57.292Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FrmCheckout.cs",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\FrmCheckout.cs",
+              "RelativeDocumentMoniker": "Customer\\FrmCheckout.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\FrmCheckout.cs",
+              "RelativeToolTip": "Customer\\FrmCheckout.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:54:21.629Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Usr_MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Usr_MainForm.cs",
+              "RelativeDocumentMoniker": "Usr_MainForm.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Usr_MainForm.cs [Design]",
+              "RelativeToolTip": "Usr_MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:59:58.578Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Model1.edmx",
+              "RelativeDocumentMoniker": "Model1.edmx",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-06-10T10:13:24.533Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransaksiCard.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\TransaksiCard.cs",
+              "RelativeDocumentMoniker": "Customer\\TransaksiCard.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\TransaksiCard.cs [Design]",
+              "RelativeToolTip": "Customer\\TransaksiCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:25:36.581Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransaksiCard.cs",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\TransaksiCard.cs",
+              "RelativeDocumentMoniker": "Customer\\TransaksiCard.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\TransaksiCard.cs",
+              "RelativeToolTip": "Customer\\TransaksiCard.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:39:01.792Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Adm_Dashboard.cs",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Admin\\Adm_Dashboard.cs",
+              "RelativeDocumentMoniker": "Admin\\Adm_Dashboard.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Admin\\Adm_Dashboard.cs",
+              "RelativeToolTip": "Admin\\Adm_Dashboard.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAvwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:52:43.247Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cs_Transaksi.cs",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\Cs_Transaksi.cs",
+              "RelativeDocumentMoniker": "Customer\\Cs_Transaksi.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\Cs_Transaksi.cs",
+              "RelativeToolTip": "Customer\\Cs_Transaksi.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIA8wCUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:58:55.61Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Adm_KelolaBuku.cs",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Admin\\Adm_KelolaBuku.cs",
+              "RelativeDocumentMoniker": "Admin\\Adm_KelolaBuku.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Admin\\Adm_KelolaBuku.cs",
+              "RelativeToolTip": "Admin\\Adm_KelolaBuku.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAMwMgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T13:04:07.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Adm_KelolaBuku.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Admin\\Adm_KelolaBuku.cs",
+              "RelativeDocumentMoniker": "Admin\\Adm_KelolaBuku.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Admin\\Adm_KelolaBuku.cs [Design]*",
+              "RelativeToolTip": "Admin\\Adm_KelolaBuku.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T13:04:04.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormRegister.cs",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\FormRegister.cs",
+              "RelativeDocumentMoniker": "FormRegister.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\FormRegister.cs",
+              "RelativeToolTip": "FormRegister.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAjwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T12:28:22.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Adm_Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Admin\\Adm_Dashboard.cs",
+              "RelativeDocumentMoniker": "Admin\\Adm_Dashboard.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Admin\\Adm_Dashboard.cs [Design]",
+              "RelativeToolTip": "Admin\\Adm_Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:52:41.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookCard.cs",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\BookCard.cs",
+              "RelativeDocumentMoniker": "Customer\\BookCard.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\BookCard.cs",
+              "RelativeToolTip": "Customer\\BookCard.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:45:53.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartCard.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\CartCard.cs",
+              "RelativeDocumentMoniker": "Customer\\CartCard.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\CartCard.cs [Design]",
+              "RelativeToolTip": "Customer\\CartCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:45:11.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Usr_MainForm.cs",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Usr_MainForm.cs",
+              "RelativeDocumentMoniker": "Usr_MainForm.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Usr_MainForm.cs",
+              "RelativeToolTip": "Usr_MainForm.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAQwFUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:11:16.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cs_DaftarBuku.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\Cs_DaftarBuku.cs",
+              "RelativeDocumentMoniker": "Customer\\Cs_DaftarBuku.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\Cs_DaftarBuku.cs [Design]",
+              "RelativeToolTip": "Customer\\Cs_DaftarBuku.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:58:17.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormRegister.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\FormRegister.cs",
+              "RelativeDocumentMoniker": "FormRegister.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\FormRegister.cs [Design]",
+              "RelativeToolTip": "FormRegister.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:59:56.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cs_DaftarBuku.cs",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\Cs_DaftarBuku.cs",
+              "RelativeDocumentMoniker": "Customer\\Cs_DaftarBuku.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\Cs_DaftarBuku.cs",
+              "RelativeToolTip": "Customer\\Cs_DaftarBuku.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvx4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T11:08:30.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cs_Transaksi.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\Cs_Transaksi.cs",
+              "RelativeDocumentMoniker": "Customer\\Cs_Transaksi.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\Cs_Transaksi.cs [Design]",
+              "RelativeToolTip": "Customer\\Cs_Transaksi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:58:27.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cs_Cart.cs",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\Cs_Cart.cs",
+              "RelativeDocumentMoniker": "Customer\\Cs_Cart.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\Cs_Cart.cs",
+              "RelativeToolTip": "Customer\\Cs_Cart.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:45:40.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CartCard.cs",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\CartCard.cs",
+              "RelativeDocumentMoniker": "Customer\\CartCard.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\CartCard.cs",
+              "RelativeToolTip": "Customer\\CartCard.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwCEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:45:13.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\FormLogin.cs",
+              "RelativeDocumentMoniker": "FormLogin.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\FormLogin.cs [Design]",
+              "RelativeToolTip": "FormLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:59:54.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookCard.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\BookCard.cs",
+              "RelativeDocumentMoniker": "Customer\\BookCard.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\BookCard.cs [Design]",
+              "RelativeToolTip": "Customer\\BookCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:00:39.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Cs_Cart.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\Cs_Cart.cs",
+              "RelativeDocumentMoniker": "Customer\\Cs_Cart.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Customer\\Cs_Cart.cs [Design]",
+              "RelativeToolTip": "Customer\\Cs_Cart.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:58:33.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Adm_MainForm.cs",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Adm_MainForm.cs",
+              "RelativeDocumentMoniker": "Adm_MainForm.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Adm_MainForm.cs",
+              "RelativeToolTip": "Adm_MainForm.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAjwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:59:22.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Adm_MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\KhususDesktop\\Penjualan Buku\\Adm_MainForm.cs",
+              "RelativeDocumentMoniker": "Adm_MainForm.cs",
+              "ToolTip": "D:\\KhususDesktop\\Penjualan Buku\\Adm_MainForm.cs [Design]",
+              "RelativeToolTip": "Adm_MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:59:15.188Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

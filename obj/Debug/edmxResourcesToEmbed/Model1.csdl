@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PenjualanBukuModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Buku">
+    <Key>
+      <PropertyRef Name="IdBuku" />
+    </Key>
+    <Property Name="IdBuku" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Judul" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Penulis" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Penerbit" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Harga" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Stok" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DetailTransaksis" Relationship="Self.FK__DetailTra__IdBuk__403A8C7D" FromRole="Buku" ToRole="DetailTransaksi" />
+    <Property Name="Image" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Genre" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="DetailTransaksi">
+    <Key>
+      <PropertyRef Name="IdDetail" />
+    </Key>
+    <Property Name="IdDetail" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdTransaksi" Type="Int32" />
+    <Property Name="IdBuku" Type="Int32" />
+    <Property Name="Jumlah" Type="Int32" />
+    <Property Name="HargaSaatTransaksi" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Subtotal" Type="Decimal" Precision="29" Scale="2" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Buku" Relationship="Self.FK__DetailTra__IdBuk__403A8C7D" FromRole="DetailTransaksi" ToRole="Buku" />
+    <NavigationProperty Name="Transaksi" Relationship="Self.FK__DetailTra__IdTra__3F466844" FromRole="DetailTransaksi" ToRole="Transaksi" />
+  </EntityType>
+  <EntityType Name="Pelanggan">
+    <Key>
+      <PropertyRef Name="IdPelanggan" />
+    </Key>
+    <Property Name="IdPelanggan" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nama" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Alamat" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Telepon" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Transaksis" Relationship="Self.FK__Transaksi__IdPel__3B75D760" FromRole="Pelanggan" ToRole="Transaksi" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="isAdmin" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Transaksi">
+    <Key>
+      <PropertyRef Name="IdTransaksi" />
+    </Key>
+    <Property Name="IdTransaksi" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdPelanggan" Type="Int32" />
+    <Property Name="Tanggal" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="DetailTransaksis" Relationship="Self.FK__DetailTra__IdTra__3F466844" FromRole="Transaksi" ToRole="DetailTransaksi" />
+    <NavigationProperty Name="Pelanggan" Relationship="Self.FK__Transaksi__IdPel__3B75D760" FromRole="Transaksi" ToRole="Pelanggan" />
+  </EntityType>
+  <Association Name="FK__DetailTra__IdBuk__403A8C7D">
+    <End Role="Buku" Type="Self.Buku" Multiplicity="0..1" />
+    <End Role="DetailTransaksi" Type="Self.DetailTransaksi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Buku">
+        <PropertyRef Name="IdBuku" />
+      </Principal>
+      <Dependent Role="DetailTransaksi">
+        <PropertyRef Name="IdBuku" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetailTra__IdTra__3F466844">
+    <End Role="Transaksi" Type="Self.Transaksi" Multiplicity="0..1" />
+    <End Role="DetailTransaksi" Type="Self.DetailTransaksi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transaksi">
+        <PropertyRef Name="IdTransaksi" />
+      </Principal>
+      <Dependent Role="DetailTransaksi">
+        <PropertyRef Name="IdTransaksi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transaksi__IdPel__3B75D760">
+    <End Role="Pelanggan" Type="Self.Pelanggan" Multiplicity="0..1" />
+    <End Role="Transaksi" Type="Self.Transaksi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pelanggan">
+        <PropertyRef Name="IdPelanggan" />
+      </Principal>
+      <Dependent Role="Transaksi">
+        <PropertyRef Name="IdPelanggan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PenjualanBukuEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bukus" EntityType="Self.Buku" />
+    <EntitySet Name="DetailTransaksis" EntityType="Self.DetailTransaksi" />
+    <EntitySet Name="Pelanggans" EntityType="Self.Pelanggan" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Transaksis" EntityType="Self.Transaksi" />
+    <AssociationSet Name="FK__DetailTra__IdBuk__403A8C7D" Association="Self.FK__DetailTra__IdBuk__403A8C7D">
+      <End Role="Buku" EntitySet="Bukus" />
+      <End Role="DetailTransaksi" EntitySet="DetailTransaksis" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetailTra__IdTra__3F466844" Association="Self.FK__DetailTra__IdTra__3F466844">
+      <End Role="Transaksi" EntitySet="Transaksis" />
+      <End Role="DetailTransaksi" EntitySet="DetailTransaksis" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transaksi__IdPel__3B75D760" Association="Self.FK__Transaksi__IdPel__3B75D760">
+      <End Role="Pelanggan" EntitySet="Pelanggans" />
+      <End Role="Transaksi" EntitySet="Transaksis" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
