@@ -30,4 +30,3 @@ D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan Buku.exe.config
 D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Customer.BookCard.resources
 D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Customer.CartCard.resources
 D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Customer.FrmCheckout.resources
-D:\KhususDesktop\Penjualan Buku\obj\Debug\Penjualan_Buku.Customer.TransaksiCard.resources

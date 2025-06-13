@@ -32,13 +32,13 @@
             this.customPanel1 = new CustomPanel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.txtuang = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtAlamat = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.bigTextBox2 = new ReaLTaiizor.Controls.BigTextBox();
-            this.bigTextBox1 = new ReaLTaiizor.Controls.BigTextBox();
+            this.txtEmail = new ReaLTaiizor.Controls.BigTextBox();
+            this.txtNm = new ReaLTaiizor.Controls.BigTextBox();
             this.airButton1 = new ReaLTaiizor.Controls.AirButton();
             this.lblTotal = new ReaLTaiizor.Controls.BigLabel();
             this.customPanel1.SuspendLayout();
@@ -63,13 +63,13 @@
             this.customPanel1.BorderSize = 1;
             this.customPanel1.Controls.Add(this.linkLabel1);
             this.customPanel1.Controls.Add(this.txtuang);
-            this.customPanel1.Controls.Add(this.textBox1);
+            this.customPanel1.Controls.Add(this.txtAlamat);
             this.customPanel1.Controls.Add(this.label3);
             this.customPanel1.Controls.Add(this.label4);
             this.customPanel1.Controls.Add(this.label2);
             this.customPanel1.Controls.Add(this.label1);
-            this.customPanel1.Controls.Add(this.bigTextBox2);
-            this.customPanel1.Controls.Add(this.bigTextBox1);
+            this.customPanel1.Controls.Add(this.txtEmail);
+            this.customPanel1.Controls.Add(this.txtNm);
             this.customPanel1.Controls.Add(this.airButton1);
             this.customPanel1.GradientColor1 = System.Drawing.Color.DodgerBlue;
             this.customPanel1.GradientColor2 = System.Drawing.Color.DeepSkyBlue;
@@ -102,18 +102,19 @@
             this.txtuang.TextChanged += new System.EventHandler(this.txtuang_TextChanged);
             this.txtuang.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtuang_KeyPress);
             // 
-            // textBox1
+            // txtAlamat
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(48, 209);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(313, 74);
-            this.textBox1.TabIndex = 3;
+            this.txtAlamat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtAlamat.Location = new System.Drawing.Point(48, 209);
+            this.txtAlamat.Multiline = true;
+            this.txtAlamat.Name = "txtAlamat";
+            this.txtAlamat.Size = new System.Drawing.Size(313, 74);
+            this.txtAlamat.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(48, 313);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(150, 16);
@@ -123,6 +124,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(48, 190);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 16);
@@ -132,6 +134,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(45, 106);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 16);
@@ -141,43 +144,44 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(48, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Nama Lengkap";
             // 
-            // bigTextBox2
+            // txtEmail
             // 
-            this.bigTextBox2.BackColor = System.Drawing.Color.Transparent;
-            this.bigTextBox2.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.bigTextBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.bigTextBox2.Image = null;
-            this.bigTextBox2.Location = new System.Drawing.Point(48, 125);
-            this.bigTextBox2.MaxLength = 32767;
-            this.bigTextBox2.Multiline = false;
-            this.bigTextBox2.Name = "bigTextBox2";
-            this.bigTextBox2.ReadOnly = false;
-            this.bigTextBox2.Size = new System.Drawing.Size(313, 46);
-            this.bigTextBox2.TabIndex = 1;
-            this.bigTextBox2.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bigTextBox2.UseSystemPasswordChar = false;
+            this.txtEmail.BackColor = System.Drawing.Color.Transparent;
+            this.txtEmail.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtEmail.ForeColor = System.Drawing.Color.DimGray;
+            this.txtEmail.Image = null;
+            this.txtEmail.Location = new System.Drawing.Point(48, 125);
+            this.txtEmail.MaxLength = 32767;
+            this.txtEmail.Multiline = false;
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.ReadOnly = false;
+            this.txtEmail.Size = new System.Drawing.Size(313, 46);
+            this.txtEmail.TabIndex = 1;
+            this.txtEmail.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtEmail.UseSystemPasswordChar = false;
             // 
-            // bigTextBox1
+            // txtNm
             // 
-            this.bigTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.bigTextBox1.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.bigTextBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.bigTextBox1.Image = null;
-            this.bigTextBox1.Location = new System.Drawing.Point(48, 45);
-            this.bigTextBox1.MaxLength = 32767;
-            this.bigTextBox1.Multiline = false;
-            this.bigTextBox1.Name = "bigTextBox1";
-            this.bigTextBox1.ReadOnly = false;
-            this.bigTextBox1.Size = new System.Drawing.Size(313, 46);
-            this.bigTextBox1.TabIndex = 1;
-            this.bigTextBox1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bigTextBox1.UseSystemPasswordChar = false;
+            this.txtNm.BackColor = System.Drawing.Color.Transparent;
+            this.txtNm.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtNm.ForeColor = System.Drawing.Color.DimGray;
+            this.txtNm.Image = null;
+            this.txtNm.Location = new System.Drawing.Point(48, 45);
+            this.txtNm.MaxLength = 32767;
+            this.txtNm.Multiline = false;
+            this.txtNm.Name = "txtNm";
+            this.txtNm.ReadOnly = false;
+            this.txtNm.Size = new System.Drawing.Size(313, 46);
+            this.txtNm.TabIndex = 1;
+            this.txtNm.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtNm.UseSystemPasswordChar = false;
             // 
             // airButton1
             // 
@@ -231,12 +235,12 @@
 
         private System.Windows.Forms.ListBox listBoxSummary;
         private CustomPanel customPanel1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtAlamat;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private ReaLTaiizor.Controls.BigTextBox bigTextBox2;
-        private ReaLTaiizor.Controls.BigTextBox bigTextBox1;
+        private ReaLTaiizor.Controls.BigTextBox txtEmail;
+        private ReaLTaiizor.Controls.BigTextBox txtNm;
         private ReaLTaiizor.Controls.AirButton airButton1;
         private System.Windows.Forms.Label label4;
         private ReaLTaiizor.Controls.BigLabel lblTotal;

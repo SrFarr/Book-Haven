@@ -31,6 +31,7 @@ namespace Penjualan_Buku.Customer
             poisonDataGridView1.DataSource = books;
             poisonDataGridView1.ReadOnly = true;
             poisonDataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            poisonDataGridView1.Columns["Image"].Visible = false;
             poisonDataGridView1.Columns["IdBuku"].Visible = false;
             poisonDataGridView1.Columns["DetailTransaksis"].Visible = false;
         }
@@ -41,6 +42,11 @@ namespace Penjualan_Buku.Customer
         }
 
         private void lblNama_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void poisonDataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

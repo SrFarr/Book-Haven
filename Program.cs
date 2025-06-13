@@ -16,7 +16,7 @@ namespace Penjualan_Buku
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Usr_MainForm("frd",2));
+            Application.Run(new FormLogin());
         }
     }
 }

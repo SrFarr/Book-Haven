@@ -24,23 +24,52 @@ namespace Penjualan_Buku.Customer
         {
 
         }
-        void LoadCardTransaksi()
-        {
-            var t = db.Transaksis.ToList();
-            for(int i = flowLayoutPanel1.Controls.Count -1; i >= 0; i--)
-            {
-                if (flowLayoutPanel1.Controls[i] is TransaksiCard)
-                {
-                    flowLayoutPanel1.Controls.RemoveAt(i);
-                }
-            }
-            var card = new TransaksiCard(idPelanggan);
-            flowLayoutPanel1.Controls.Add(card);
-        }
 
         private void Cs_Transaksi_Load(object sender, EventArgs e)
         {
-            LoadCardTransaksi();
+            LoadData();   
         }
+
+        private void dataGridView4_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+        void LoadData()
+        {
+            var data = (from t in db.Transaksis
+                        join d in db.DetailTransaksis on t.IdTransaksi equals d.IdTransaksi
+                        join b in db.Bukus on d.IdBuku equals b.IdBuku
+                        where t.IdPelanggan == idPelanggan
+                        select new
+                        {
+                            t.Tanggal,
+                            b.Judul,
+                            d.Jumlah,
+                            d.HargaSaatTransaksi,
+                            d.Subtotal
+                        }).ToList();
+
+            // Tambahkan nomor urut (index)
+            var dta = data.Select((x, i) => new
+            {
+                No = i + 1, // index mulai dari 1
+                x.Tanggal,
+                x.Judul,
+                x.Jumlah,
+                x.HargaSaatTransaksi,
+                x.Subtotal
+            }).ToList();
+
+            dataGridView1.DataSource = dta;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.ReadOnly = true;
+        }
+
+
     }
 }

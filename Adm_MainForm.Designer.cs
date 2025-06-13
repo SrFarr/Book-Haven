@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Adm_MainForm));
             this.customPanel1 = new CustomPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -243,6 +244,8 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(208, 46);
             this.panel3.TabIndex = 0;
+            this.panel3.Click += new System.EventHandler(this.panel3_Click);
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // pictureBox4
             // 
@@ -281,9 +284,10 @@
             this.ClientSize = new System.Drawing.Size(1139, 716);
             this.Controls.Add(this.panelControl);
             this.Controls.Add(this.customPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Adm_MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Adm_MainForm";
+            this.Text = "Book Haven - Main Form";
             this.Load += new System.EventHandler(this.Adm_MainForm_Load);
             this.customPanel1.ResumeLayout(false);
             this.customPanel1.PerformLayout();

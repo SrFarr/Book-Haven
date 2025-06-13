@@ -17,6 +17,7 @@ namespace Penjualan_Buku
         PenjualanBukuEntities db = new PenjualanBukuEntities();
         int idBuku;
         string selectedImgPath = "";
+      
         public Adm_KelolaBuku()
         {
             InitializeComponent();

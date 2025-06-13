@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Penjualan_Buku.Admin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace Penjualan_Buku
 {
     public partial class Adm_MainForm : Form
     {
+        
         List<Panel> menuPanels;
         public Adm_MainForm()
         {
@@ -25,7 +27,7 @@ namespace Penjualan_Buku
             RegPanelEventHandler(panelDashboard, panelDashboard_Click);
             menuPanels = new List<Panel>
             {
-                panelKelolaBuku, panelKelolaPengguna, panelDashboard
+                panelKelolaBuku, panelKelolaPengguna, panelDashboard, panel3
             };
         }
         void SetActivePanel(Panel activePanel)
@@ -42,6 +44,7 @@ namespace Penjualan_Buku
             uc.Dock = DockStyle.Fill;
             panelControl.Controls.Add(uc);
         }
+
         void RegPanelEventHandler(Control parent, EventHandler eventHandler)
         {
             parent.Click -= eventHandler;
@@ -107,6 +110,17 @@ namespace Penjualan_Buku
         private void bigLabel3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel3_Click(object sender, EventArgs e)
+        {
+            SetActivePanel(panel3);
+            LoadUserControl(new Adm_Transaction());
         }
     }
 }

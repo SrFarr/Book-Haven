@@ -131,12 +131,6 @@
     <Compile Include="Customer\FrmCheckout.Designer.cs">
       <DependentUpon>FrmCheckout.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer\TransaksiCard.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Customer\TransaksiCard.Designer.cs">
-      <DependentUpon>TransaksiCard.cs</DependentUpon>
-    </Compile>
     <Compile Include="CustomPanel.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -237,9 +231,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\FrmCheckout.resx">
       <DependentUpon>FrmCheckout.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Customer\TransaksiCard.resx">
-      <DependentUpon>TransaksiCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>

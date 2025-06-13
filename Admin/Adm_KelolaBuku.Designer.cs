@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Adm_KelolaBuku));
             this.datagridbuku = new System.Windows.Forms.DataGridView();
             this.bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
             this.cmbxGenre = new System.Windows.Forms.ComboBox();
@@ -261,7 +262,7 @@
             // 
             // picImage
             // 
-            this.picImage.Image = global::Penjualan_Buku.Properties.Resources.pencil_color;
+            this.picImage.Image = ((System.Drawing.Image)(resources.GetObject("picImage.Image")));
             this.picImage.Location = new System.Drawing.Point(104, 587);
             this.picImage.Name = "picImage";
             this.picImage.Size = new System.Drawing.Size(86, 85);

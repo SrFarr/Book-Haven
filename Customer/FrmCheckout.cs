@@ -26,6 +26,10 @@ namespace Penjualan_Buku.Customer
         }
         private void LoadSummary()
         {
+            var data = db.Pelanggans.FirstOrDefault(x => x.IdPelanggan == id_Pelanggan);
+            txtNm.Text = data.Nama;
+            txtAlamat.Text = data.Alamat;
+            txtEmail.Text = data.Email;
             foreach (var item in CartService.Items)
             {
                 listBoxSummary.Items.Add($"{item.judul} x {item.qty} = Rp{item.subtotal}");
